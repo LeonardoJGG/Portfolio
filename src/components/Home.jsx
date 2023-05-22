@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import Isotipo from '../assets/Isotipo.png'
+import React from 'react'
 import render from '../assets/render.png'
 import Navbar from './Navbar';
 

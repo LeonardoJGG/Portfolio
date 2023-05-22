@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-// import './Modal.css';
-import project from '../assets/project.png'
 import { UilGithub } from '@iconscout/react-unicons'
 import { UilBrowser } from '@iconscout/react-unicons'
 
@@ -30,20 +28,20 @@ function Modal(props) {
                 <div className="modal-content">
 
                     <div className="left">
-                        <img src={project} alt="Project" />
+                        <img src={props.image} alt="Project" />
                     </div>
 
                     <div className="right">
 
                         <span className="close" onClick={closeModal}>&times;</span>
                         <h2>{props.modalTitle}</h2>
-                        <p>{props.modalContent}</p>
+                        <p>{props.modalContent}</p> <br />
                         <p>{props.modalContentTools}</p>
 
                         <div className="buttons">
 
-                          <a href='https://www.google.com' target='_blank'> <button> <UilGithub /> GITHUB  </button> </a>
-                          <a href='https://www.google.com' target='_blank'> <button className='demo'> <UilBrowser /> DEMO  </button> </a>
+                          <a href={props.repo} target='_blank'> <button> <UilGithub /> GITHUB  </button> </a>
+                          <a href={props.demo} target='_blank'> <button className='demo'> <UilBrowser /> DEMO  </button> </a>
 
                         </div>
 
@@ -52,17 +50,6 @@ function Modal(props) {
             </div>
         )}
 
-
-      {/* <button onClick={openModal}>{props.buttonText}</button>
-      {showModal && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={closeModal}>&times;</span>
-            <h2>{props.modalTitle}</h2>
-            <p>{props.modalContent}</p>
-          </div>
-        </div>
-      )} */}
     </>
   );
 }

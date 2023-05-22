@@ -232,7 +232,6 @@ nav .contact-btn:hover {
   width: 100%;
   max-width: 100%;
   height: 100vh;
-  /* background-color: green; */
 }
 
 .title {
@@ -243,9 +242,7 @@ nav .contact-btn:hover {
   width: 100%;
   max-width: 100%;
   padding-block-start: 2rem;
-  /* height: 2rem; */
   box-sizing: border-box;
-  /* background-color: blue; */
 }
 
 .title h2{
@@ -263,7 +260,6 @@ nav .contact-btn:hover {
 .title .title-name {
   position: relative;
   margin-block-start: -1.5rem;
-  /* margin-top: .5rem; */
   background: linear-gradient(271.86deg, #4D74FF 0.64%, #4F36E9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -273,17 +269,11 @@ nav .contact-btn:hover {
 .about-body {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   width: 100%;
   max-width: 100%;
 
-
-  /* display: flex;
-  justify-content: space-between;
-  width: 100%;*/
   height: auto; 
   padding-block: 2.5rem;
-  /* background-color: blue; */
 }
 
 .about-body .left {
@@ -291,14 +281,11 @@ nav .contact-btn:hover {
   flex-direction: column;
   align-items: center;
   width: 45%;
-  /* height: 20rem; */
-  /* background-color: purple; */
 }
 
 .about-body img {
   width: 20rem;
   height: 20rem;
-  /* background-color: blue; */
 }
 
 .about-body button {
@@ -392,8 +379,6 @@ nav .contact-btn:hover {
 
 .about-body .right {
   width: 55%;
-  /* height: 20rem; */
-  /* background-color: green; */
 }
 
 .right p {
@@ -421,7 +406,6 @@ nav .contact-btn:hover {
   width: 100%;
   max-width: 100%;
   height: auto;
-  /* background-color: green; */
   box-sizing: border-box;
 }
 
@@ -438,8 +422,6 @@ nav .contact-btn:hover {
   width: 15rem;
   height: auto;
   background-color: white;
-  /* position: relative; */
-  /* margin-bottom: 2rem; */
 }
 
 .project img {
@@ -467,7 +449,6 @@ nav .contact-btn:hover {
   cursor: pointer;
   outline: none;
   border: 0;
-  /* vertical-align: middle; */
   text-decoration: none;
   background: transparent;
   padding: 0;
@@ -524,11 +505,6 @@ nav .contact-btn:hover {
 .details .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
-  /* top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; */
-  /* padding: 0.75rem 0; */
   margin: 0 0 0 3.5rem;
   color: #7464FF;
   font-weight: 500;
@@ -557,9 +533,6 @@ nav .contact-btn:hover {
 
 .modal {
   position: fixed;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   z-index: 10;
   left: 0;
   top: 0;
@@ -574,13 +547,10 @@ nav .contact-btn:hover {
 
 .modal-content {
   background-color: #fff;
-  /* padding: 20px; */
   border-top-right-radius: 2.5rem;
   border-bottom-right-radius: 2.5rem;
   width: 60rem;
   height: 30rem;
-  /* max-width: 80%;
-  max-height: 80%; */
   overflow-y: auto;
   text-align: justify;
   position: relative;
@@ -590,7 +560,6 @@ nav .contact-btn:hover {
   position: fixed;
   width: 30rem;
   height: 30rem;
-  /* background-color: green; */
   overflow: hidden;
 }
 
@@ -611,13 +580,11 @@ nav .contact-btn:hover {
   padding-block: 1.2rem;
   padding-inline-start: 1.8rem;
   padding-inline-end: 4rem;
-  /* background-color: green; */
   box-sizing: border-box;
   overflow: hidden;
 }
 
 .modal-content .right h2 {
-  /* letter-spacing: 0.1em; */
   color: #252525;
   font-weight: 600;
 }
@@ -670,7 +637,6 @@ nav .contact-btn:hover {
   display: flex;
   justify-content: center;
   width: 100vw;
-  /* background-color: blue; */
 }
 
 .form {
@@ -678,7 +644,6 @@ nav .contact-btn:hover {
   display: flex;
   justify-content: center;
   width: 100%;
-  /* background-color: green; */
 }
 
 .form form {
@@ -716,7 +681,6 @@ nav .contact-btn:hover {
   display: flex;
   justify-content: center;
   width: 100%;
-  /* background: green; */
 }
 
 .form form .button button {
@@ -725,7 +689,6 @@ nav .contact-btn:hover {
   border-radius: 2rem;
   border: none;
   background: linear-gradient(97.04deg, #7736E0 0%, #504DFF 100%);
-  /* font-weight: 600; */
   letter-spacing: .05rem;
   color: #ffffff;
 }
@@ -735,19 +698,10 @@ nav .contact-btn:hover {
 }
 
 
-
-
-
-
-
-
-
-
 .alert-container {
   position: fixed;
   display: flex;
   justify-content: center;
-  /* padding: 1rem; */
   text-align: center;
   border-radius: 1rem;
   margin-top: -10rem;
@@ -909,13 +863,6 @@ nav .contact-btn:hover {
     width: 18rem;
     height: 18rem;
   }
-
-  /* .project {
-    width: 16rem;
-  }
-  .project .img {
-    height: 16rem;
-  } */
   
   .projects {
     margin-block-start: 15rem;
@@ -1048,15 +995,12 @@ nav .contact-btn:hover {
   }
 
   nav {
-    /* position: fixed; */
     box-sizing: border-box;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     max-width: 100%;
-    /* padding-block-start: 3%;
-    padding-inline: 8%; */
   }
 
   nav .show{
@@ -1090,8 +1034,6 @@ nav .contact-btn:hover {
   }
 
   nav img {
-    /* position: fixed; */
-    /* background: blue; */
     width: 4.8rem;
     height: 4.8rem;
     z-index: 5;
@@ -1099,7 +1041,6 @@ nav .contact-btn:hover {
 
   nav a:first-child {
     margin-top: 12rem;
-    /* display: none; */
   }
 
   nav .contact-btn {
@@ -1107,8 +1048,6 @@ nav .contact-btn:hover {
   }
 
   .menu-btn {
-    /* position: fixed; */
-    /* background: blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1193,26 +1132,6 @@ nav .contact-btn:hover {
     transform: translateX(-40px);
     background-color: transparent;
   }
-  
-  
-  /* .checkbox2:checked + label > .hamburger2 > .bar1{
-    transform: translateX(40px);
-    background-color: transparent;
-  }
-  
-  .checkbox2:checked + label > .hamburger2 > .bar2{
-    transform: rotate(45deg);
-  }
-  
-  .checkbox2:checked + label > .hamburger2 > .bar3{
-    transform: rotate(-45deg);
-  }
-  
-  .checkbox2:checked + label > .hamburger2 > .bar4{
-    transform: translateX(-40px);
-    background-color: transparent;
-  } */
-
 
 
   .hello {
@@ -1253,7 +1172,6 @@ nav .contact-btn:hover {
   }
 
   .about-body .left {
-    /* background-color: green; */
     align-items: start;
     width: 100%;
   }
@@ -1269,7 +1187,6 @@ nav .contact-btn:hover {
 
   .about-body .right {
     width: 100%;
-    /* background-color: blue; */
   }
 
   .right p {
@@ -1455,7 +1372,6 @@ nav .contact-btn:hover {
     padding-block-start: 0;
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
-    /* background-color: green; */
     overflow-y: hidden;
   }
   
@@ -1475,7 +1391,6 @@ nav .contact-btn:hover {
     position: absolute;
     bottom: 0rem;
     width: 93%;
-    /* background-color: green; */
   }
   
   .modal .modal-content .right button {
@@ -1527,10 +1442,6 @@ nav .contact-btn:hover {
   .render-container img{
     width: 25rem;
     height: 25rem;
-  }
-
-  .title {
-    /* padding-block-start: 1.2rem; */
   }
 
   .title .let-me {
@@ -1589,7 +1500,6 @@ nav .contact-btn:hover {
     padding-block-start: 0;
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
-    /* background-color: green; */
     overflow-y: hidden;
   }
   
@@ -1609,7 +1519,6 @@ nav .contact-btn:hover {
     position: absolute;
     bottom: 0rem;
     width: 93%;
-    /* background-color: green; */
   }
   
   .modal .modal-content .right button {

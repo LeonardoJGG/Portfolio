@@ -4,8 +4,9 @@ import emailjs from "emailjs-com"
 const Contact = () => {
 
   const myForm = useRef(null);
+  const [visible, setVisible] = useState(false);
 
-  const senMail = (event) => {
+  const sendMail = (event) => {
     event.preventDefault();
   
     emailjs
@@ -25,10 +26,11 @@ const Contact = () => {
       );
 
       myForm.current.reset();
+
+      setVisible(true);
   };
 
 
-  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -37,10 +39,6 @@ const Contact = () => {
 
     return () => clearTimeout(timer);
   }, [visible]);
-
-  const handleClose = () => {
-    setVisible(false);
-  };
 
   return (
     <div className='container contact'>
@@ -52,18 +50,18 @@ const Contact = () => {
           </div>
 
           <div className="form">
-            <form ref={myForm} onSubmit={senMail}>
+            <form ref={myForm} onSubmit={sendMail}>
               <div className="name">
-                <input type="text" placeholder='Enter Name' name="name" className='input' />
-                <input type="text" placeholder='Enter Lastname' name="lastname" className='input' />
+                <input type="text" placeholder='Enter Name' name="name" className='input' required />
+                <input type="text" placeholder='Enter Lastname' name="lastname" className='input' required />
               </div>
 
-              <input type="mail" placeholder='Enter Email' name="email" className='input' />
-              <textarea placeholder='Enter Message' name="message" id="" cols="30" rows="4" className='input' ></textarea>
+              <input type="mail" placeholder='Enter Email' name="email" className='input' required />
+              <textarea placeholder='Enter Message' name="message" id="" cols="30" rows="4" className='input' required ></textarea>
             
 
               <div className="button">
-                <button type='submit' onClick={() => setVisible(true)} >SEND</button>
+                <button type='submit'  >SEND</button>
               </div>
             </form>
 
