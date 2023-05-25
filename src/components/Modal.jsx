@@ -35,7 +35,7 @@ function Modal(props) {
 
                         <span className="close" onClick={closeModal}>&times;</span>
                         <h2>{props.modalTitle}</h2>
-                        <p>{props.modalContent}</p> <br />
+                        <p>{props.modalContent}</p> 
                         <p>{props.modalContentTools}</p>
 
                         <div className="buttons">

@@ -1,7 +1,7 @@
 import React from 'react'
 import Project from './Project'
-import project1 from '../assets/project.png'
 import portfolio from '../assets/portfolio.png'
+import budget from '../assets/budget.png'
 import login from '../assets/login.png'
 
 const Projects = () => {
@@ -28,6 +28,18 @@ const Projects = () => {
           />
 
           <Project
+            name="BUDGET WEB APP"
+            img={budget}
+            description="With this application you can manage your finances efficiently and safely."
+            image={budget}
+            modalTitle="BUDGET WEB APP"
+            modalContent="With this application you have the possibility of managing your finances by creating different accounts with the option of managing two different currencies, managing expenses, income and transactions between personal accounts or currency exchange... This is not responsive, I recommend watching from a computer"
+            modalContentTools="React - Redux - Nodejs - Postgres"
+            repo='https://github.com/LeonardoJGG/Budget-App'
+            demo='https://leonardojgg-budget.netlify.app/'
+          />
+
+          <Project
             name="LOGIN"
             img={login}
             description="A secure and easy-to-use login to protect your data and privacy."
@@ -39,11 +51,6 @@ const Projects = () => {
             demo='https://leonardojgg-login.netlify.app/'
           />
 
-          <Project
-            name="PROJECT NIMI"
-            img={project1}
-            description="It was popularised in the 1960s with the release of Letraset sheets containing"
-          />
 
         </div>
       </div>

@@ -1610,7 +1610,7 @@ nav .contact-btn:hover {
   }
 
   .project .description p {
-    margin: 0;
+    margin-top: 0rem;
     text-align: justify;
     font-size: .8rem;
     letter-spacing: 0.05em;
@@ -1702,7 +1702,6 @@ nav .contact-btn:hover {
   }
 
   .project .description p {
-    margin: 0;
     text-align: justify;
     font-size: .8rem;
     letter-spacing: 0.05em;
